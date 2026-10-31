@@ -1,0 +1,79 @@
+{
+  "id": "theme-lluvia-de-codigo",
+  "name": "Lluvia de Código",
+  "version": "1.0.0",
+  "apiVersion": 17,
+  "entry": "plugin.js",
+  "icon": "icon.png",
+  "description": "Verde fósforo sobre negro total, como si la realidad fuera una simulación.",
+  "author": "kinotvapp",
+  "hosts": [],
+  "categories": [
+    "themes"
+  ],
+  "capabilities": [
+    "screen"
+  ],
+  "screen": {
+    "label": "Lluvia de Código",
+    "labelEn": "Code Rain",
+    "opensFrom": [
+      "settings"
+    ],
+    "settingsButton": {
+      "label": "Ver presentación",
+      "labelEn": "See presentation"
+    }
+  },
+  "appThemes": [
+    {
+      "id": "lluvia-de-codigo",
+      "name": {
+        "es": "Lluvia de Código",
+        "en": "Code Rain"
+      },
+      "colors": {
+        "accent": "#39FF88",
+        "onAccent": "#02190B",
+        "background": "#030806",
+        "surface": "#0B1610",
+        "surfaceHigh": "#13231A",
+        "railPanel": "#07100B"
+      },
+      "shape": {
+        "cardRadius": 2,
+        "channelRadius": 2,
+        "buttonRadius": 2,
+        "chipRadius": 2,
+        "dialogRadius": 4,
+        "inputRadius": 2
+      },
+      "typography": {
+        "scale": 1.0,
+        "titleScale": 1.0
+      },
+      "tv": {
+        "typography": {
+          "scale": 1.0
+        }
+      },
+      "adjustable": {
+        "colors.accent": {
+          "swatches": [
+            "#39FF88",
+            "#B6FF3C",
+            "#7CF5E0"
+          ]
+        },
+        "shape.cardRadius": {
+          "min": 0,
+          "max": 32
+        },
+        "typography.scale": {
+          "min": 1.0,
+          "max": 1.3
+        }
+      }
+    }
+  ]
+}
