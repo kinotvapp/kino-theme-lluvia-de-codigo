@@ -1,8 +1,8 @@
 {
   "id": "theme-lluvia-de-codigo",
   "name": "Lluvia de Código",
-  "version": "1.0.2",
-  "apiVersion": 17,
+  "version": "1.0.3",
+  "apiVersion": 18,
   "entry": "plugin.js",
   "icon": "icon.png",
   "description": "Verde fósforo sobre negro total, como si la realidad fuera una simulación.",
