@@ -1,5 +1,5 @@
 // A theme's presentation, drawn with the screen kit in whichever theme is active.
-const THEME = {"id": "lluvia-de-codigo", "es": "Lluvia de Código", "en": "Code Rain", "hook": "Sigue al conejo blanco.", "hookEn": "Follow the white rabbit.", "desc": "Verde fósforo sobre negro total, como si la realidad fuera una simulación."};
+const THEME = {"id": "lluvia-de-codigo", "es": "Neo", "en": "Neo", "hook": "No hay cuchara. Tampoco hay cuadro.", "hookEn": "There is no spoon. There is no frame.", "desc": "Verde fósforo sobre negro total, como si la realidad fuera una simulación."};
 const t = (es, en) => ({ text: es, textEn: en });
 
 export async function screen({ activeTheme }) {
